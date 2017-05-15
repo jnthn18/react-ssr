@@ -6,6 +6,9 @@
   "repository": "https://github.com/jnthn18/react-ssr.git",
   "author": "Jonathan More",
   "license": "MIT",
+  "scripts": {
+    "start": "babel-node -- server/index.js"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -22,5 +25,5 @@
     "express": "^4.15.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
-  },
+  }
 }
